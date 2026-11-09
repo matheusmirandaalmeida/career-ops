@@ -1,0 +1,61 @@
+{
+  "lang": "pt-BR",
+  "page_format": "a4",
+  "country": "BR",
+  "candidate": {
+    "name": "Matheus Miranda Almeida",
+    "title": "Auxiliar | Assistente | Técnico Administrativo",
+    "email": "matheus.mma2015@gmail.com",
+    "phone": "(11) 95972-4192",
+    "location": "São Paulo, SP, Brasil",
+    "photo": ""
+  },
+  "sections": {
+    "summary": "Resumo profissional",
+    "experience": "Experiência profissional",
+    "projects": "Projetos",
+    "education": "Formação",
+    "certifications": "Certificações",
+    "skills": "Competências"
+  },
+  "summary": "Experiência administrativa no CEJAM, no setor da saúde, com atendimento a usuários, organização de informações e apoio às rotinas do setor. Atuação como Auxiliar Técnico Administrativo e experiência anterior como Jovem Aprendiz Administrativo.",
+  "experience": [
+    {
+      "company": "CEJAM",
+      "role": "Auxiliar Técnico Administrativo",
+      "dates": "11/2019 a 05/02/2026",
+      "bullets": [
+        "Atender usuários presencialmente e por telefone, orientar e encaminhar solicitações.",
+        "Organizar, conferir e controlar documentos físicos e digitais e atualizar informações e cadastros nos sistemas internos.",
+        "Elaborar e acompanhar planilhas e controles administrativos, organizando e priorizando demandas.",
+        "Controlar materiais e insumos e apoiar as atividades operacionais do setor.",
+        "Apoiar usuários de sistemas internos, colaborar com TI em problemas básicos e prestar apoio em configurações básicas de equipamentos, redes e sistemas."
+      ]
+    },
+    {
+      "company": "CEJAM",
+      "role": "Jovem Aprendiz Administrativo",
+      "dates": "01/2018 a 05/2019",
+      "bullets": [
+        "Recepcionar usuários, atender por telefone, realizar agendamentos e encaminhar demandas em apoio às equipes administrativas.",
+        "Organizar e arquivar documentos, atualizar cadastros e apoiar o controle de materiais."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Graduação em Análise e Desenvolvimento de Sistemas — Senac. Em andamento. Previsão de conclusão: 2º semestre de 2026."
+    },
+    {
+      "title": "Técnico em Informática — ETEC Jardim Ângela. Concluído em 2018."
+    }
+  ],
+  "skills": [
+    {
+      "items": "Atendimento presencial e telefônico; organização de documentos, informações e cadastros."
+    },
+    {
+      "items": "Planilhas e controles administrativos; controle de materiais e apoio operacional."
+    }
+  ]
+}

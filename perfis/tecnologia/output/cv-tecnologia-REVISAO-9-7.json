@@ -1,0 +1,91 @@
+{
+  "lang": "pt-BR",
+  "page_format": "a4",
+  "country": "BR",
+  "candidate": {
+    "name": "Matheus Miranda Almeida",
+    "title": "Tecnologia | Suporte e Desenvolvimento Júnior",
+    "email": "matheus.mma2015@gmail.com",
+    "phone": "(11) 95972-4192",
+    "location": "São Paulo, SP, Brasil",
+    "photo": ""
+  },
+  "sections": {
+    "summary": "Resumo profissional",
+    "experience": "Experiência profissional",
+    "projects": "Projetos",
+    "education": "Formação",
+    "certifications": "Certificações",
+    "skills": "Competências técnicas"
+  },
+  "summary": "Graduando em Análise e Desenvolvimento de Sistemas no Senac, com conhecimentos em Java, Spring Boot, React e SQL aplicados em estudos e projetos pessoais. Experiência administrativa no CEJAM, com atendimento e suporte a usuários de sistemas internos e apoio em configurações básicas de equipamentos, redes e sistemas.",
+  "experience": [
+    {
+      "company": "CEJAM",
+      "role": "Auxiliar Técnico Administrativo",
+      "dates": "11/2019 a 05/02/2026",
+      "bullets": [
+        "Apoiar usuários de sistemas internos, colaborar com TI no encaminhamento de problemas básicos e prestar apoio em configurações básicas de equipamentos, redes e sistemas.",
+        "Atender presencialmente e por telefone, orientar e encaminhar solicitações.",
+        "Atualizar informações e cadastros; organizar, conferir e controlar documentos; priorizar demandas, elaborar planilhas e acompanhar controles administrativos.",
+        "Apoiar o controle de materiais e as rotinas operacionais."
+      ]
+    },
+    {
+      "company": "CEJAM",
+      "role": "Jovem Aprendiz Administrativo",
+      "dates": "01/2018 a 05/2019",
+      "bullets": [
+        "Recepcionar usuários, atender por telefone, realizar agendamentos e encaminhar demandas em apoio às equipes administrativas.",
+        "Organizar e arquivar documentos, atualizar cadastros e apoiar o controle de materiais."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Graduação em Análise e Desenvolvimento de Sistemas — Senac — em andamento. Previsão de conclusão: 2º semestre de 2026."
+    },
+    {
+      "title": "Técnico em Informática — ETEC Jardim Ângela — concluído em 2018."
+    }
+  ],
+  "skills": [
+    {
+      "items": "Linguagens: Java, Python e SQL."
+    },
+    {
+      "items": "Frameworks e interface: Spring Boot e React."
+    },
+    {
+      "items": "Dados: PostgreSQL, MySQL e Supabase."
+    },
+    {
+      "items": "Ferramentas: Git/GitHub e Postman."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bellun — Plataforma de gestão de beleza",
+      "bullets": [
+        "Projeto com React e Supabase/PostgreSQL, voltado à gestão de serviços de beleza, com autenticação e agendamentos."
+      ]
+    },
+    {
+      "name": "Godot Agent — Projeto pessoal de agente local",
+      "bullets": [
+        "Agente local em Python, com integração MCP, validação e controle de execução."
+      ]
+    },
+    {
+      "name": "Projetos de estudo — Java, Spring Boot e SQL",
+      "bullets": [
+        "Estudos e projetos de software com Java e Spring Boot e consultas SQL."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Oracle Cloud Infrastructure Foundations Associate — obtida em 2025."
+    }
+  ]
+}

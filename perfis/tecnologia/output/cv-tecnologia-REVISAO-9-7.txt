@@ -1,0 +1,43 @@
+Matheus Miranda Almeida
+TECNOLOGIA | SUPORTE E DESENVOLVIMENTO JÚNIOR
+(11) 95972-4192
+matheus.mma2015@gmail.com
+São Paulo, SP, Brasil
+RESUMO PROFISSIONAL
+Graduando em Análise e Desenvolvimento de Sistemas no Senac, com conhecimentos em Java, Spring Boot, React
+e SQL aplicados em estudos e projetos pessoais. Experiência administrativa no CEJAM, com atendimento e suporte
+a usuários de sistemas internos e apoio em configurações básicas de equipamentos, redes e sistemas.
+COMPETÊNCIAS TÉCNICAS
+Linguagens: Java, Python e SQL.
+Frameworks e interface: Spring Boot e React.
+Dados: PostgreSQL, MySQL e Supabase.
+Ferramentas: Git/GitHub e Postman.
+PROJETOS
+Bellun - Plataforma de gestão de beleza
+Projeto com React e Supabase/PostgreSQL, voltado à gestão de serviços de beleza, com autenticação e agendamentos.
+Godot Agent - Projeto pessoal de agente local
+Agente local em Python, com integração MCP, validação e controle de execução.
+Projetos de estudo - Java, Spring Boot e SQL
+Estudos e projetos de software com Java e Spring Boot e consultas SQL.
+EXPERIÊNCIA PROFISSIONAL
+Auxiliar Técnico Administrativo
+CEJAM
+11/2019 a 05/02/2026
+Apoiar usuários de sistemas internos, colaborar com TI no encaminhamento de problemas básicos e prestar apoio em
+configurações básicas de equipamentos, redes e sistemas.
+Atender presencialmente e por telefone, orientar e encaminhar solicitações.
+Atualizar informações e cadastros; organizar, conferir e controlar documentos; priorizar demandas, elaborar planilhas e
+acompanhar controles administrativos.
+Apoiar o controle de materiais e as rotinas operacionais.
+Jovem Aprendiz Administrativo
+CEJAM
+01/2018 a 05/2019
+Recepcionar usuários, atender por telefone, realizar agendamentos e encaminhar demandas em apoio às equipes
+administrativas.
+Organizar e arquivar documentos, atualizar cadastros e apoiar o controle de materiais.
+FORMAÇÃO
+Graduação em Análise e Desenvolvimento de Sistemas - Senac - em andamento. Previsão de conclusão: 2º
+semestre de 2026.
+Técnico em Informática - ETEC Jardim Ângela - concluído em 2018.
+CERTIFICAÇÕES
+Oracle Cloud Infrastructure Foundations Associate - obtida em 2025.

@@ -1,0 +1,45 @@
+# Estrutura baseada em config/profile.example.yml; somente dados informados.
+# Perfil incompleto: links profissionais e detalhamentos pendentes.
+candidate:
+  full_name: "Matheus Miranda Almeida"
+  email: "matheus.mma2015@gmail.com"
+  phone: "11959724192"
+  location: "São Paulo, SP, Brasil"
+target_roles:
+  primary:
+    - "Analista de TI Júnior"
+    - "Desenvolvedor Java Júnior"
+    - "Suporte Técnico Júnior"
+    - "Estágio em TI"
+    - "Analista de Dados Júnior"
+narrative:
+  headline: "Graduando em Análise e Desenvolvimento de Sistemas no Senac, com experiência administrativa no CEJAM."
+  # Conhecimentos não equivalem a nível de domínio ou vínculo profissional em TI.
+  technical_background: "Conhecimentos e projetos com Java, Spring Boot, React e SQL; nível de domínio e detalhes dos projetos pendentes."
+  experience_context: "Experiência administrativa no CEJAM de 11/09/2019 a 05/02/2026; não caracteriza experiência profissional formal em desenvolvimento. Cargo oficial, atividades, competências transferíveis e resultados pendentes de confirmação."
+  education_context: "Graduação em Análise e Desenvolvimento de Sistemas no Senac em andamento, com previsão de conclusão no 2º semestre de 2026; Técnico em Informática pela ETEC Jardim Ângela concluído em 2018."
+  certification_context: "Oracle Cloud Infrastructure Foundations Associate obtida em 2025."
+compensation:
+  # Pretensão do candidato; não é salário anterior, mínimo ou remuneração de vaga.
+  # Periodicidade não informada.
+  target_range: "R$ 2.500,00"
+  currency: "BRL"
+  location_flexibility: "Disponibilidade: remoto, híbrido ou presencial em São Paulo."
+location:
+  country: "Brasil"
+  city: "São Paulo"
+  state: "SP"
+# Pendências explícitas; não usar como fatos ou qualificações em candidaturas.
+# - Links profissionais.
+# - Cargo oficial, atividades, competências transferíveis comprovadas e resultados no CEJAM.
+# - Nomes, escopo, datas, participação, autoria, repositórios e resultados dos projetos.
+# - Nível de domínio de Java, Spring Boot, React e SQL.
+# - Datas de início das formações.
+# - Identificador e link da certificação.
+# - Inglês não confirmado: não atribuir nível de proficiência.
+# - Demais idiomas, periodicidade da pretensão salarial, remuneração mínima e outras informações não confirmadas.
+language:
+  output: pt-BR
+  modes_dir: modes
+cv:
+  output_format: text

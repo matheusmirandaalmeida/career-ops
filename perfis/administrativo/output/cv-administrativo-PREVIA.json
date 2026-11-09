@@ -1,0 +1,77 @@
+{
+  "lang": "pt-BR",
+  "page_format": "a4",
+  "country": "BR",
+  "candidate": {
+    "name": "Matheus Miranda Almeida",
+    "title": "PREVIA - Administrativo",
+    "email": "matheus.mma2015@gmail.com",
+    "phone": "11959724192",
+    "location": "São Paulo, SP, Brasil",
+    "photo": ""
+  },
+  "sections": {
+    "summary": "Resumo profissional",
+    "experience": "Experiência profissional",
+    "projects": "Projetos",
+    "education": "Formação",
+    "certifications": "Certificações",
+    "skills": "Competências"
+  },
+  "summary": "Experiência no CEJAM, no setor da saúde, como Auxiliar Técnico Administrativo de 11/2019 a 05/02/2026, com experiência anterior como Jovem Aprendiz Administrativo na mesma organização de 01/2018 a 05/2019. Técnico em Informática pela ETEC Jardim Ângela e graduando em Análise e Desenvolvimento de Sistemas no Senac. Atuação em atendimento presencial e telefônico, organização de documentos e cadastros, elaboração de planilhas e controles administrativos. Apoio ao controle de materiais e às rotinas operacionais, com organização e priorização de demandas. Objetivos: Auxiliar Administrativo, Assistente Administrativo, Técnico Administrativo e vagas administrativas na saúde.",
+  "experience": [
+    {
+      "company": "CEJAM",
+      "role": "Auxiliar Técnico Administrativo",
+      "context": "Experiência administrativa",
+      "dates": "11/2019 a 05/02/2026",
+      "bullets": [
+        "Atender usuários presencialmente e por telefone, orientar sobre solicitações e encaminhar as demandas.",
+        "Organizar, conferir e controlar documentos físicos e digitais, mantendo informações e cadastros atualizados nos sistemas internos.",
+        "Elaborar e acompanhar planilhas e controles administrativos para organizar as informações das rotinas de trabalho.",
+        "Controlar materiais e insumos e apoiar as atividades operacionais do setor.",
+        "Apoiar usuários de sistemas internos e colaborar com TI no encaminhamento de problemas básicos de sistemas, equipamentos e conectividade.",
+        "Prestar apoio em configurações básicas de equipamentos, redes e sistemas nas rotinas administrativas.",
+        "Organizar e priorizar as demandas administrativas."
+      ]
+    },
+    {
+      "company": "CEJAM",
+      "role": "Jovem Aprendiz Administrativo",
+      "context": "Experiência administrativa",
+      "dates": "01/2018 a 05/2019",
+      "bullets": [
+        "Recepcionar usuários e realizar atendimento telefônico em apoio às equipes administrativas.",
+        "Realizar agendamentos e encaminhar demandas às equipes.",
+        "Organizar e arquivar documentos utilizados nas rotinas administrativas.",
+        "Atualizar cadastros e apoiar o controle de materiais."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Graduação em Análise e Desenvolvimento de Sistemas — Senac. Em andamento. Previsão de conclusão: 2º semestre de 2026."
+    },
+    {
+      "title": "Técnico em Informática — ETEC Jardim Ângela. Concluído em 2018."
+    }
+  ],
+  "skills": [
+    {
+      "category": "",
+      "items": "Atendimento presencial e telefônico; orientação e encaminhamento de solicitações."
+    },
+    {
+      "category": "",
+      "items": "Organização de documentos, informações e cadastros."
+    },
+    {
+      "category": "",
+      "items": "Planilhas, controles administrativos e organização de demandas."
+    },
+    {
+      "category": "",
+      "items": "Controle de materiais e apoio operacional."
+    }
+  ]
+}

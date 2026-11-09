@@ -1,0 +1,40 @@
+{
+  "lang": "pt-BR",
+  "candidate": {
+    "name": "Matheus Miranda Almeida",
+    "title": "Assistente Administrativo - Recepção",
+    "email": "matheus.mma2015@gmail.com",
+    "phone": "(11) 95972-4192",
+    "location": "São Paulo, SP, Brasil"
+  },
+  "sections": {
+    "summary": "Professional Summary",
+    "experience": "Work Experience",
+    "education": "Education"
+  },
+  "summary": "Experiência administrativa no CEJAM, no setor da saúde. Técnico em Informática e graduando em Análise e Desenvolvimento de Sistemas no Senac. Objetivo: Assistente Administrativo - Recepção.",
+  "experience": [
+    {
+      "company": "CEJAM",
+      "role": "Auxiliar Técnico Administrativo",
+      "dates": "11/2019 a 05/02/2026",
+      "bullets": [
+        "Prestar apoio em configurações básicas de equipamentos, redes e sistemas nas rotinas administrativas."
+      ]
+    },
+    {
+      "company": "CEJAM",
+      "role": "Jovem Aprendiz Administrativo",
+      "dates": "01/2018 a 05/2019",
+      "bullets": []
+    }
+  ],
+  "education": [
+    {
+      "title": "Graduação em Análise e Desenvolvimento de Sistemas - Senac - em andamento. Previsão de conclusão: 2º semestre de 2026."
+    },
+    {
+      "title": "Técnico em Informática - ETEC Jardim Ângela - concluído em 2018."
+    }
+  ]
+}

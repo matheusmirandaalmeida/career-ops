@@ -1,0 +1,161 @@
+{
+  "job_url": "https://fundacaodorina.gupy.io/jobs/12836430",
+  "job_id": "12836430",
+  "evaluation_score": 4.0,
+  "evaluation_source": "Etapa 10.6 nesta conversa; sem relatorio persistido",
+  "form_access": "authentication_required",
+  "observed_login_controls": [
+    "username",
+    "password"
+  ],
+  "application_questions_observed": false,
+  "application_submitted": false,
+  "uploaded_files": 0,
+  "filled_fields": 0,
+  "scope": "mapa preparatorio de dados; nao representa perguntas reais do formulario",
+  "fields": [
+    {
+      "purpose": "Nome completo",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "no",
+      "draft_answer": "Matheus Miranda Almeida",
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "E-mail",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "no",
+      "draft_answer": "matheus.mma2015@gmail.com",
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Telefone",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "no",
+      "draft_answer": "(11) 95972-4192",
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Localidade",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "no",
+      "draft_answer": "São Paulo, SP, Brasil",
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Pretensão salarial, se solicitada",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "no",
+      "draft_answer": "R$ 2.500,00 brutos mensais, regime CLT.",
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Resumo de apresentação, se solicitado",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "no",
+      "draft_answer": "Tenho experiência administrativa no CEJAM, no setor da saúde, como Auxiliar Técnico Administrativo de 11/2019 a 05/02/2026 e como Jovem Aprendiz Administrativo de 01/2018 a 05/2019. Sou técnico em Informática e curso Análise e Desenvolvimento de Sistemas no Senac. No vínculo principal, prestei apoio em configurações básicas de equipamentos, redes e sistemas, dentro da função administrativa.",
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Experiência em atendimento e recepção",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "yes",
+      "draft_answer": null,
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Pacote Office: ferramentas e nível",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "yes",
+      "draft_answer": null,
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Disponibilidade presencial 10h-19h, Vila Clementino",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "yes",
+      "draft_answer": null,
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Data de início disponível",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "yes",
+      "draft_answer": null,
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "CPF e endereço completo",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "yes",
+      "draft_answer": null,
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Autodeclarações, PcD e consentimentos",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "yes",
+      "draft_answer": null,
+      "ready_for_autofill": false
+    },
+    {
+      "purpose": "Escolaridade: comprovação do ensino médio e datas de início dos cursos",
+      "observed_on_application_form": false,
+      "field_type": "unknown",
+      "required": "unknown",
+      "limit": "unknown",
+      "options": [],
+      "needs_candidate_confirmation": "yes",
+      "draft_answer": null,
+      "ready_for_autofill": false
+    }
+  ]
+}

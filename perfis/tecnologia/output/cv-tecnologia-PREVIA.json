@@ -1,0 +1,111 @@
+{
+  "lang": "pt-BR",
+  "page_format": "a4",
+  "country": "BR",
+  "candidate": {
+    "name": "Matheus Miranda Almeida",
+    "title": "PREVIA - Tecnologia",
+    "email": "matheus.mma2015@gmail.com",
+    "phone": "11959724192",
+    "location": "São Paulo, SP, Brasil",
+    "photo": ""
+  },
+  "sections": {
+    "summary": "Resumo profissional",
+    "experience": "Experiência profissional",
+    "projects": "Projetos",
+    "education": "Formação",
+    "certifications": "Certificações",
+    "skills": "Competências"
+  },
+  "summary": "Graduação em Análise e Desenvolvimento de Sistemas no Senac em andamento, Técnico em Informática pela ETEC Jardim Ângela concluído em 2018 e certificação Oracle Cloud Infrastructure Foundations Associate obtida em 2025. Conhecimentos em Java, Spring Boot, React e SQL, com aplicação em projetos de estudo e pessoais. Experiência administrativa no CEJAM, com atendimento e suporte a usuários de sistemas internos, organização de informações e colaboração com TI em problemas básicos de sistemas, equipamentos e conectividade. Objetivos: Analista de TI Júnior, Desenvolvedor Java Júnior, Suporte Técnico Júnior, Estágio em TI e Analista de Dados Júnior.",
+  "experience": [
+    {
+      "company": "CEJAM",
+      "role": "Auxiliar Técnico Administrativo",
+      "context": "Experiência administrativa",
+      "dates": "11/2019 a 05/02/2026",
+      "bullets": [
+        "Apoiar usuários na utilização de sistemas internos e colaborar com TI no encaminhamento de problemas básicos de sistemas, equipamentos e conectividade.",
+        "Prestar apoio em configurações básicas de equipamentos, redes e sistemas nas rotinas administrativas.",
+        "Atualizar informações e cadastros nos sistemas internos, organizando os dados utilizados nas atividades do setor.",
+        "Atender usuários presencialmente e por telefone, orientar e encaminhar solicitações.",
+        "Organizar e priorizar demandas, elaborar planilhas e acompanhar controles administrativos.",
+        "Organizar, conferir e controlar documentos físicos e digitais, além de apoiar o controle de materiais e as rotinas operacionais."
+      ]
+    },
+    {
+      "company": "CEJAM",
+      "role": "Jovem Aprendiz Administrativo",
+      "context": "Experiência administrativa",
+      "dates": "01/2018 a 05/2019",
+      "bullets": [
+        "Recepcionar usuários e realizar atendimento telefônico em apoio às equipes administrativas.",
+        "Realizar agendamentos e encaminhar demandas às equipes.",
+        "Organizar e arquivar documentos, atualizar cadastros e apoiar o controle de materiais."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Graduação em Análise e Desenvolvimento de Sistemas — Senac — em andamento. Previsão de conclusão: 2º semestre de 2026."
+    },
+    {
+      "title": "Técnico em Informática — ETEC Jardim Ângela — concluído em 2018."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Conhecimentos técnicos",
+      "items": "Linguagens e frameworks: Java, Spring Boot, React e Python."
+    },
+    {
+      "category": "Conhecimentos técnicos",
+      "items": "Bancos de dados: SQL, PostgreSQL, MySQL e Supabase."
+    },
+    {
+      "category": "Conhecimentos técnicos",
+      "items": "Ferramentas: Git/GitHub e Postman."
+    },
+    {
+      "category": "Aplicação em projetos",
+      "items": "React e Supabase/PostgreSQL no Bellun, com autenticação e agendamentos."
+    },
+    {
+      "category": "Aplicação em projetos",
+      "items": "Python e integração MCP no Godot Agent, com validação e controle de execução."
+    },
+    {
+      "category": "Aplicação em projetos",
+      "items": "Java, Spring Boot e consultas SQL em projetos de estudo."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bellun — Plataforma de gestão de beleza",
+      "bullets": [
+        "Projeto de plataforma voltada à gestão de serviços de beleza, com recursos de autenticação e agendamentos.",
+        "Tecnologias: React e Supabase/PostgreSQL, no contexto de uma aplicação de gestão."
+      ]
+    },
+    {
+      "name": "Godot Agent — Projeto pessoal de agente local",
+      "bullets": [
+        "Projeto pessoal de agente local em Python, com integração MCP.",
+        "Recursos de validação e controle de execução no contexto do agente."
+      ]
+    },
+    {
+      "name": "Projetos de estudo — Java, Spring Boot e SQL",
+      "bullets": [
+        "Estudos e projetos de software com Java, Spring Boot e SQL.",
+        "Consultas SQL no contexto de estudos e projetos."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Oracle Cloud Infrastructure Foundations Associate — obtida em 2025."
+    }
+  ]
+}

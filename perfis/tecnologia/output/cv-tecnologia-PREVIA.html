@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!-- career-ops-template
+name: ATS Friendly
+version: 1.1.0
+sections: all
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matheus Miranda Almeida — CV</title>
+<style>
+  :root {
+    --font-family: "Liberation Sans", "Helvetica Neue", Arial, "DejaVu Sans", "Arial Unicode MS", sans-serif;
+    --font-size: 11px;
+    --page-margin: 0.6in;
+    /* #3242: unchanged default — this template has always kept a role whole. */
+    --job-break-inside: avoid;
+    /* Whether a Projects entry may split across a page break. Unchanged
+       default — a project may still split, keeping the CV compact. Override via
+       config/profile.yml `style.project_break_inside: avoid` for "a project is
+       one unit, never split", which removes the one-word widow a description
+       can leave above its tech line, at the cost of a bottom gap. */
+    --project-break-inside: auto;
+  }
+  @page { margin: var(--page-margin); }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  /* HEADER */
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+
+  .header-title {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: var(--font-family);
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 4px;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  /* SECTIONS */
+  .section {
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #2c3e50;
+    border-bottom: 1px solid #2c3e50;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  /* PROFESSIONAL SUMMARY */
+  .summary-text {
+    font-size: var(--font-size);
+    line-height: 1.7;
+    color: #2f2f2f;
+  }
+
+  .summary-text strong {
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+
+  /* CORE COMPETENCIES */
+  .competencies-list {
+    line-height: 1.8;
+  }
+
+  .competency-item {
+    display: inline;
+    margin-right: 12px;
+    font-size: var(--font-size);
+    color: #2c3e50;
+  }
+
+  .competency-item:not(:last-child)::after {
+    content: " · ";
+    color: #999;
+  }
+
+  /* WORK EXPERIENCE - ATS-friendly sequential layout */
+  .job {
+    margin-bottom: 14px;
+  }
+
+  .job-role {
+    font-weight: 600;
+    font-size: var(--font-size);
+    color: #333;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .job-company {
+    font-weight: 600;
+    font-size: 12px;
+    color: #1a1a2e;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .job-location {
+    font-size: 10px;
+    color: #888;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .job-period {
+    font-size: 10px;
+    color: #777;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .job ul {
+    padding-left: 18px;
+    margin-top: 4px;
+  }
+
+  .job li {
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 3px;
+  }
+
+  .job li strong {
+    font-weight: 600;
+  }
+
+  /* PROJECTS */
+  .project {
+    margin-bottom: 10px;
+  }
+
+  .project-title {
+    font-weight: 600;
+    font-size: 11px;
+    color: #1a1a2e;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .project-badge {
+    font-size: 9px;
+    color: #777;
+    margin-left: 6px;
+  }
+
+  .project-desc {
+    font-size: 10.5px;
+    color: #444;
+    margin-top: 3px;
+    line-height: 1.55;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #888;
+    margin-top: 2px;
+  }
+
+  /* EDUCATION */
+  .edu-item {
+    margin-bottom: 8px;
+  }
+
+  .edu-title {
+    font-weight: 600;
+    font-size: var(--font-size);
+    color: #1a1a2e;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .edu-org {
+    color: #555;
+    font-size: var(--font-size);
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .edu-year {
+    font-size: 10px;
+    color: #777;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .edu-desc {
+    font-size: 10px;
+    color: #666;
+    margin-top: 2px;
+    line-height: 1.5;
+  }
+
+  /* CERTIFICATIONS */
+  .cert-item {
+    margin-bottom: 4px;
+  }
+
+  .cert-title {
+    font-weight: 500;
+    font-size: 10.5px;
+    color: #333;
+    display: inline-block;
+    margin-right: 12px;
+  }
+
+  .cert-org {
+    color: #555;
+    font-size: 10.5px;
+    display: inline-block;
+    margin-right: 12px;
+  }
+
+  .cert-year {
+    font-size: 10px;
+    color: #777;
+  }
+
+  /* AWARDS */
+  .award-item {
+    margin-bottom: 4px;
+  }
+
+  .award-title {
+    font-weight: 500;
+    font-size: 10.5px;
+    color: #333;
+    display: inline-block;
+    margin-right: 12px;
+  }
+
+  .award-org {
+    color: #555;
+    font-size: 10.5px;
+    display: inline-block;
+    margin-right: 12px;
+  }
+
+  .award-year {
+    font-size: 10px;
+    color: #777;
+  }
+
+  /* SKILLS */
+  .skill-item {
+    margin-bottom: 3px;
+    font-size: 10.5px;
+    color: #444;
+  }
+
+  .skill-category {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  /* PAGE BREAK CONTROL */
+  .header,
+  .edu-item,
+  .cert-item,
+  .competency-item,
+  .skill-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* #3242: opt-in — see the --job-break-inside default above. */
+  .job {
+    page-break-inside: var(--job-break-inside, avoid);
+    break-inside: var(--job-break-inside, avoid);
+  }
+
+  /* Opt-in — see the --project-break-inside default above. */
+  .project {
+    page-break-inside: var(--project-break-inside, auto);
+    break-inside: var(--project-break-inside, auto);
+  }
+
+  .section-title,
+  .job-role,
+  .job-company,
+  .job-location,
+  .job-period,
+  .project-title {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .project-tech {
+    break-before: avoid;
+    page-break-before: avoid;
+  }
+
+  /* RTL (Arabic) Support */
+  html[lang="ar"] body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  }
+
+  html[lang="ar"] .header h1,
+  html[lang="ar"] .header-title,
+  html[lang="ar"] .section-title,
+  html[lang="ar"] .job-company,
+  html[lang="ar"] .project-title,
+  html[lang="ar"] .competency-item,
+  html[lang="ar"] .skill-category {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  }
+
+  /* CJK (Japanese) font fallback */
+  html[lang="ja"] body {
+    font-family: var(--font-family), "Hiragino Sans",
+      "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Noto Sans CJK JP",
+      "Noto Sans JP", Meiryo, "MS PGothic", sans-serif;
+  }
+
+  html[lang="ja"] .header h1,
+  html[lang="ja"] .header-title,
+  html[lang="ja"] .section-title,
+  html[lang="ja"] .job-company,
+  html[lang="ja"] .project-title,
+  html[lang="ja"] .competency-item,
+  html[lang="ja"] .skill-category {
+    font-family: var(--font-family), "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+      "Yu Gothic", "YuGothic", "Noto Sans CJK JP", "Noto Sans JP",
+      Meiryo, "MS PGothic", sans-serif;
+  }
+
+  /* Simplified Chinese typography */
+  html[lang="zh-CN"] body,
+  html[lang="zh"] body {
+    font-family: var(--font-family), "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+      "Noto Sans SC", "Source Han Sans SC", sans-serif;
+    line-break: strict;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  html[lang="zh-CN"] .header h1,
+  html[lang="zh-CN"] .header-title,
+  html[lang="zh-CN"] .section-title,
+  html[lang="zh-CN"] .job-company,
+  html[lang="zh-CN"] .project-title,
+  html[lang="zh-CN"] .contact-row,
+  html[lang="zh-CN"] .competency-item,
+  html[lang="zh-CN"] .skill-category,
+  html[lang="zh"] .header h1,
+  html[lang="zh"] .header-title,
+  html[lang="zh"] .section-title,
+  html[lang="zh"] .job-company,
+  html[lang="zh"] .project-title,
+  html[lang="zh"] .contact-row,
+  html[lang="zh"] .competency-item,
+  html[lang="zh"] .skill-category {
+    font-family: var(--font-family), "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+      "Noto Sans SC", "Source Han Sans SC", sans-serif;
+  }
+
+  /* Korean typography */
+  html[lang="ko"] body {
+    font-family: var(--font-family), "Apple SD Gothic Neo",
+      "Malgun Gothic", "Noto Sans CJK KR",
+      "Noto Sans KR", "Nanum Gothic", sans-serif;
+    line-break: strict;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  html[lang="ko"] .header h1,
+  html[lang="ko"] .header-title,
+  html[lang="ko"] .section-title,
+  html[lang="ko"] .job-company,
+  html[lang="ko"] .project-title,
+  html[lang="ko"] .contact-row,
+  html[lang="ko"] .competency-item,
+  html[lang="ko"] .skill-category {
+    font-family: var(--font-family), "Apple SD Gothic Neo",
+      "Malgun Gothic", "Noto Sans CJK KR",
+      "Noto Sans KR", "Nanum Gothic", sans-serif;
+  }
+
+  /* Traditional Chinese typography */
+  html[lang="zh-TW"] body {
+    font-family: var(--font-family), "PingFang TC",
+      "Microsoft JhengHei", "Noto Sans CJK TC",
+      "Noto Sans TC", "Source Han Sans TC", sans-serif;
+    line-break: strict;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  html[lang="zh-TW"] .header h1,
+  html[lang="zh-TW"] .header-title,
+  html[lang="zh-TW"] .section-title,
+  html[lang="zh-TW"] .job-company,
+  html[lang="zh-TW"] .project-title,
+  html[lang="zh-TW"] .contact-row,
+  html[lang="zh-TW"] .competency-item,
+  html[lang="zh-TW"] .skill-category {
+    font-family: var(--font-family), "PingFang TC",
+      "Microsoft JhengHei", "Noto Sans CJK TC",
+      "Noto Sans TC", "Source Han Sans TC", sans-serif;
+  }
+
+  html[lang="zh-CN"] .summary-text,
+  html[lang="zh"] .summary-text,
+  html[lang="zh-CN"] .job li,
+  html[lang="zh"] .job li {
+    line-height: 1.7;
+  }
+
+  html[lang="zh-CN"] .section-title,
+  html[lang="zh"] .section-title {
+    letter-spacing: 0.03em;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Matheus Miranda Almeida</h1>
+    <div class="header-title">PREVIA - Tecnologia</div>
+    <div class="contact-row">
+      <a href="tel:11959724192">11959724192</a>
+      <a href="mailto:matheus.mma2015@gmail.com">matheus.mma2015@gmail.com</a>
+      <span>São Paulo, SP, Brasil</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section">
+    <div class="section-title">Resumo profissional</div>
+    <div class="summary-text">Graduação em Análise e Desenvolvimento de Sistemas no Senac em andamento, Técnico em Informática pela ETEC Jardim Ângela concluído em 2018 e certificação Oracle Cloud Infrastructure Foundations Associate obtida em 2025. Conhecimentos em Java, Spring Boot, React e SQL, com aplicação em projetos de estudo e pessoais. Experiência administrativa no CEJAM, com atendimento e suporte a usuários de sistemas internos, organização de informações e colaboração com TI em problemas básicos de sistemas, equipamentos e conectividade. Objetivos: Analista de TI Júnior, Desenvolvedor Java Júnior, Suporte Técnico Júnior, Estágio em TI e Analista de Dados Júnior.</div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experiência profissional</div>
+    <div class="job">
+  <div class="job-role">Auxiliar Técnico Administrativo</div>
+  <div class="job-company">CEJAM</div>
+  <div class="job-context">Experiência administrativa</div>
+  
+  <div class="job-period">11/2019 a 05/02/2026</div>
+  <ul>
+    <li>Apoiar usuários na utilização de sistemas internos e colaborar com TI no encaminhamento de problemas básicos de sistemas, equipamentos e conectividade.</li>
+    <li>Prestar apoio em configurações básicas de equipamentos, redes e sistemas nas rotinas administrativas.</li>
+    <li>Atualizar informações e cadastros nos sistemas internos, organizando os dados utilizados nas atividades do setor.</li>
+    <li>Atender usuários presencialmente e por telefone, orientar e encaminhar solicitações.</li>
+    <li>Organizar e priorizar demandas, elaborar planilhas e acompanhar controles administrativos.</li>
+    <li>Organizar, conferir e controlar documentos físicos e digitais, além de apoiar o controle de materiais e as rotinas operacionais.</li>
+  </ul>
+</div>
+  <div class="job">
+  <div class="job-role">Jovem Aprendiz Administrativo</div>
+  <div class="job-company">CEJAM</div>
+  <div class="job-context">Experiência administrativa</div>
+  
+  <div class="job-period">01/2018 a 05/2019</div>
+  <ul>
+    <li>Recepcionar usuários e realizar atendimento telefônico em apoio às equipes administrativas.</li>
+    <li>Realizar agendamentos e encaminhar demandas às equipes.</li>
+    <li>Organizar e arquivar documentos, atualizar cadastros e apoiar o controle de materiais.</li>
+  </ul>
+</div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Projetos</div>
+    <div class="project">
+  <div class="project-title">Bellun — Plataforma de gestão de beleza</div>
+  <div class="project-desc">Projeto de plataforma voltada à gestão de serviços de beleza, com recursos de autenticação e agendamentos.</div>
+  <div class="project-desc">Tecnologias: React e Supabase/PostgreSQL, no contexto de uma aplicação de gestão.</div>
+  
+</div>
+  <div class="project">
+  <div class="project-title">Godot Agent — Projeto pessoal de agente local</div>
+  <div class="project-desc">Projeto pessoal de agente local em Python, com integração MCP.</div>
+  <div class="project-desc">Recursos de validação e controle de execução no contexto do agente.</div>
+  
+</div>
+  <div class="project">
+  <div class="project-title">Projetos de estudo — Java, Spring Boot e SQL</div>
+  <div class="project-desc">Estudos e projetos de software com Java, Spring Boot e SQL.</div>
+  <div class="project-desc">Consultas SQL no contexto de estudos e projetos.</div>
+  
+</div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Formação</div>
+    <div class="edu-item">
+  <div class="edu-title">Graduação em Análise e Desenvolvimento de Sistemas — Senac — em andamento. Previsão de conclusão: 2º semestre de 2026.</div>
+  <div class="edu-year"></div>
+  
+</div>
+  <div class="edu-item">
+  <div class="edu-title">Técnico em Informática — ETEC Jardim Ângela — concluído em 2018.</div>
+  <div class="edu-year"></div>
+  
+</div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section">
+    <div class="section-title">Certificações</div>
+    <div class="cert-item">
+  <span class="cert-title">Oracle Cloud Infrastructure Foundations Associate — obtida em 2025.</span>
+  <span class="cert-org"></span>
+  <span class="cert-year"></span>
+</div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <div class="section-title">Competências</div>
+    <div class="skills-grid">
+<div class="skill-item"><span class="skill-category">Conhecimentos técnicos: </span>Linguagens e frameworks: Java, Spring Boot, React e Python.</div>
+<div class="skill-item"><span class="skill-category">Conhecimentos técnicos: </span>Bancos de dados: SQL, PostgreSQL, MySQL e Supabase.</div>
+<div class="skill-item"><span class="skill-category">Conhecimentos técnicos: </span>Ferramentas: Git/GitHub e Postman.</div>
+<div class="skill-item"><span class="skill-category">Aplicação em projetos: </span>React e Supabase/PostgreSQL no Bellun, com autenticação e agendamentos.</div>
+<div class="skill-item"><span class="skill-category">Aplicação em projetos: </span>Python e integração MCP no Godot Agent, com validação e controle de execução.</div>
+<div class="skill-item"><span class="skill-category">Aplicação em projetos: </span>Java, Spring Boot e consultas SQL em projetos de estudo.</div>
+  </div>
+  </div>
+
+  <!-- END -->
+
+</div>
+</body>
+</html>

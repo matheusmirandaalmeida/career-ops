@@ -1,0 +1,44 @@
+# Estrutura baseada em config/profile.example.yml; somente dados informados.
+# Pendentes: links profissionais, atividades, ferramentas e competências específicas.
+# Histórico e formação detalhados em cv.md; não inferir atividades ou ferramentas.
+candidate:
+  full_name: "Matheus Miranda Almeida"
+  email: "matheus.mma2015@gmail.com"
+  phone: "11959724192"
+  location: "São Paulo, SP, Brasil"
+target_roles:
+  primary:
+    - "Auxiliar Administrativo"
+    - "Assistente Administrativo"
+    - "Técnico Administrativo"
+    - "Funções administrativas na saúde"
+narrative:
+  experience_context: "Auxiliar Técnico Administrativo no CEJAM de 11/2019 a 05/02/2026; Jovem Aprendiz Administrativo de 01/2018 a 05/2019. Apoio em configurações básicas de equipamentos, redes e sistemas durante o vínculo principal de Auxiliar Técnico Administrativo, confirmado diretamente pelo candidato na Etapa 9.4; a função permanece administrativa. Demais atribuições permanecem sujeitas a revisão final."
+  headline: "Experiência como Auxiliar Técnico Administrativo no setor da saúde"
+  # Auxiliar Técnico Administrativo no CEJAM: 11/2019 a 05/02/2026.
+  # Cargo e inicio confirmados diretamente pelo candidato na Etapa 9.4; dia de admissao nao informado.
+  # Jovem Aprendiz Administrativo no CEJAM: 01/2018 a 05/2019.
+  # Técnico em Informática, ETEC Jardim Ângela: concluído em 2018.
+  # Graduação em Análise e Desenvolvimento de Sistemas, Senac: em andamento.
+  # Previsão de conclusão: 2º semestre de 2026; data de início pendente.
+location:
+  country: "Brasil"
+  city: "São Paulo"
+  # Abrangência confirmada: São Paulo, SP, Brasil. Fuso não confirmado.
+compensation:
+  # Pretensão do candidato; não é salário anterior, mínimo ou remuneração de vaga.
+  # Referência e mínimo desejado confirmados: salários mensais brutos no regime CLT; sem teto salarial.
+  # Mínimo desejado preferencial: R$ 2.400,00; não é regra de corte.
+  # Priorizar salários divulgados a partir desse valor; abaixo, apenas despriorizar.
+  # Salário não divulgado: manter a vaga para negociação. Ver modes/_profile.md.
+  # PJ, estágio e remuneração por hora exigem análise própria, sem conversão direta para CLT.
+  target_range: "R$ 2.500,00 mensais brutos CLT"
+  currency: "BRL"
+  location_flexibility: "Disponibilidade: remoto, híbrido ou presencial em São Paulo."
+  # compensation.minimum omitido: o projeto o interpreta como regra de corte.
+# Inglês não confirmado: não atribuir nível de proficiência.
+language:
+  output: pt-BR
+  modes_dir: modes
+cv:
+  output_format: text

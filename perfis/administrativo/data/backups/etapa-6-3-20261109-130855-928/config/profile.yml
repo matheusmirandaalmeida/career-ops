@@ -1,0 +1,38 @@
+# Estrutura baseada em config/profile.example.yml; somente dados informados.
+# Pendentes: links profissionais, atividades, ferramentas e competências específicas.
+# Histórico e formação detalhados em cv.md; não inferir atividades ou ferramentas.
+candidate:
+  full_name: "Matheus Miranda Almeida"
+  email: "matheus.mma2015@gmail.com"
+  phone: "11959724192"
+  location: "São Paulo, SP, Brasil"
+target_roles:
+  primary:
+    - "Auxiliar Administrativo"
+    - "Assistente Administrativo"
+    - "Técnico Administrativo"
+    - "Funções administrativas na saúde"
+narrative:
+  headline: "Experiência como Assistente Administrativo no setor da saúde"
+  # Assistente Administrativo no CEJAM: 11/09/2019 a 05/02/2026.
+  # Jovem Aprendiz no CEJAM: 01/2018 a 05/2019.
+  # Técnico em Informática, ETEC Jardim Ângela: concluído em 2018.
+  # Graduação em Análise e Desenvolvimento de Sistemas, Senac: em andamento.
+  # Previsão de conclusão: 2º semestre de 2026; data de início pendente.
+location:
+  country: "Brasil"
+  city: "São Paulo"
+  # Abrangência confirmada: São Paulo, SP, Brasil. Fuso não confirmado.
+compensation:
+  # Pretensão do candidato; não é salário anterior, mínimo ou remuneração de vaga.
+  # Periodicidade não informada.
+  target_range: "R$ 2.500,00"
+  currency: "BRL"
+  location_flexibility: "Disponibilidade: remoto, híbrido ou presencial em São Paulo."
+  # Remuneração mínima: pendente.
+# Inglês não confirmado: não atribuir nível de proficiência.
+language:
+  output: pt-BR
+  modes_dir: modes
+cv:
+  output_format: text

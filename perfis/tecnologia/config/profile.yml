@@ -1,0 +1,49 @@
+# Estrutura baseada em config/profile.example.yml; somente dados informados.
+# Perfil incompleto: links profissionais e detalhamentos pendentes.
+candidate:
+  full_name: "Matheus Miranda Almeida"
+  email: "matheus.mma2015@gmail.com"
+  phone: "11959724192"
+  location: "São Paulo, SP, Brasil"
+target_roles:
+  primary:
+    - "Analista de TI Júnior"
+    - "Desenvolvedor Java Júnior"
+    - "Suporte Técnico Júnior"
+    - "Estágio em TI"
+    - "Analista de Dados Júnior"
+narrative:
+  headline: "Graduando em Análise e Desenvolvimento de Sistemas no Senac, com experiência administrativa no CEJAM."
+  # Conhecimentos não equivalem a nível de domínio ou vínculo profissional em TI.
+  technical_background: "Conhecimentos e projetos com Java, Spring Boot, React e SQL; nível de domínio e detalhes dos projetos pendentes."
+  experience_context: "Experiências administrativas no CEJAM: Auxiliar Técnico Administrativo de 11/2019 a 05/02/2026 e Jovem Aprendiz Administrativo de 01/2018 a 05/2019; não caracterizam experiência profissional formal em desenvolvimento. Demais atividades, competências transferíveis e resultados pendentes de confirmação. Apoio em configurações básicas de equipamentos, redes e sistemas durante o vínculo principal de Auxiliar Técnico Administrativo, confirmado diretamente pelo candidato na Etapa 9.4; a função permanece administrativa."
+  education_context: "Graduação em Análise e Desenvolvimento de Sistemas no Senac em andamento, com previsão de conclusão no 2º semestre de 2026; Técnico em Informática pela ETEC Jardim Ângela concluído em 2018."
+  certification_context: "Oracle Cloud Infrastructure Foundations Associate obtida em 2025."
+compensation:
+  # Pretensão do candidato; não é salário anterior, mínimo ou remuneração de vaga.
+  # Referência e mínimo desejado confirmados: salários mensais brutos no regime CLT; sem teto salarial.
+  # Mínimo desejado preferencial: R$ 2.400,00; não é regra de corte.
+  # Priorizar salários divulgados a partir desse valor; abaixo, apenas despriorizar.
+  # Salário não divulgado: manter a vaga para negociação. Ver modes/_profile.md.
+  # PJ, estágio e remuneração por hora exigem análise própria, sem conversão direta para CLT.
+  target_range: "R$ 2.500,00 mensais brutos CLT"
+  currency: "BRL"
+  location_flexibility: "Disponibilidade: remoto, híbrido ou presencial em São Paulo."
+location:
+  country: "Brasil"
+  city: "São Paulo"
+  state: "SP"
+# Pendências explícitas; não usar como fatos ou qualificações em candidaturas.
+# - Links profissionais.
+# - Atividades, competências transferíveis comprovadas e resultados dos vínculos no CEJAM.
+# - Nomes, escopo, datas, participação, autoria, repositórios e resultados dos projetos.
+# - Nível de domínio de Java, Spring Boot, React e SQL.
+# - Datas de início das formações.
+# - Identificador e link da certificação.
+# - Inglês não confirmado: não atribuir nível de proficiência.
+# - Demais idiomas e outras informações não confirmadas.
+language:
+  output: pt-BR
+  modes_dir: modes
+cv:
+  output_format: text
